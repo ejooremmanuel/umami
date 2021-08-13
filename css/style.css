@@ -29,7 +29,7 @@
         .navbar-header a {
             text-decoration: none;
             color: #fff;
-            font-size: 10px;
+            font-size: 8px;
             font-family: 'Gotham Bold';
         }
         
@@ -86,9 +86,41 @@
         @media screen and (max-width:768px) {
             .hide {
                 display: block;
-                margin-left: 400px;
+                margin-left: 100px;
             }
             .show {
                 display: none;
+            }
+            .banner-heading>h1 {
+                text-shadow: 3px 1px #f48221;
+                color: #fff;
+                font-size: 30px;
+                font-weight: 400;
+                text-align: center;
+                font-style: normal;
+                line-height: 30px;
+                font-family: 'Lulo One';
+            }
+            .banner-col-2 {
+                background: #f48221;
+                box-shadow: none;
+                font-weight: bold;
+            }
+            .head {
+                background: #fff;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+                color: #333;
+                font-family: 'Lulo One';
+                cursor: pointer;
+            }
+            .head:hover {
+                background: #333;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+                color: #fff;
+                font-family: 'Lulo One';
             }
         }
