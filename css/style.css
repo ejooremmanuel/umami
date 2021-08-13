@@ -1,0 +1,94 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        /* Imported fonts */
+        
+        @font-face {
+            font-family: 'Gotham Bold';
+            src: url(../fonts/gotham\ bold.ttf);
+        }
+        
+        @font-face {
+            font-family: 'Lulo One';
+            src: url(../fonts/Lulo\ Clean.ttf);
+        }
+        
+        @font-face {
+            font-family: 'Lulo light';
+            src: url(../fonts/lulo\ light.ttf);
+        }
+        /* Navbar Styles */
+        
+        .header {
+            background: #333;
+            min-height: 200%;
+        }
+        
+        .navbar-header a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 10px;
+            font-family: 'Gotham Bold';
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .banner {
+            height: calc(100vh - 70px);
+            background: url(../images/umami.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        .banner-heading>h1 {
+            text-shadow: 3px 1px #f48221;
+            color: #fff;
+            font-size: 60px;
+            font-weight: 400;
+            text-align: center;
+            font-style: normal;
+            line-height: 80px;
+            font-family: 'Lulo One';
+        }
+        
+        .banner-2 {
+            text-align: center;
+            font-family: 'Lulo light';
+            font-size: 16px;
+            color: #fff;
+            letter-spacing: 2px;
+        }
+        
+        .banner-col-2 {
+            background: #f48221;
+            box-shadow: -1px 2px #fff;
+        }
+        
+        .head {
+            background: #fff;
+            width: 25%;
+            text-align: center;
+            margin: 0 auto;
+            color: #333;
+            font-family: 'Lulo One';
+        }
+        
+        .head>h5 {
+            font-size: 14px;
+        }
+        /* @media queries */
+        
+        @media screen and (max-width:768px) {
+            .hide {
+                display: block;
+                margin-left: 400px;
+            }
+            .show {
+                display: none;
+            }
+        }
