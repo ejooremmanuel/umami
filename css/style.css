@@ -29,7 +29,7 @@
         .navbar-header a {
             text-decoration: none;
             color: #fff;
-            font-size: 8px;
+            font-size: 12px;
             font-family: 'Gotham Bold';
         }
         
@@ -38,17 +38,22 @@
         }
         
         .banner {
-            height: calc(100vh - 70px);
+            height: calc(100vh - 75px);
             background: url(../images/umami.jpg);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+            padding: -60px 40px 1000px 0;
+        }
+        
+        .banner-heading {
+            padding-top: 120px;
         }
         
         .banner-heading>h1 {
             text-shadow: 3px 1px #f48221;
             color: #fff;
-            font-size: 60px;
+            font-size: 90px;
             font-weight: 400;
             text-align: center;
             font-style: normal;
@@ -66,7 +71,14 @@
         
         .banner-col-2 {
             background: #f48221;
-            box-shadow: -1px 2px #fff;
+            box-shadow: -2px 2px #fff;
+        }
+        
+        .banner-col-2>h1 {
+            letter-spacing: 3px;
+            /* font-weight: bold; */
+            font-size: 25px;
+            line-height: 60px;
         }
         
         .head {
@@ -79,7 +91,9 @@
         }
         
         .head>h5 {
-            font-size: 14px;
+            font-size: 16px;
+            font-family: 'Lulo One';
+            font-weight: bold;
         }
         /* @media queries */
         
